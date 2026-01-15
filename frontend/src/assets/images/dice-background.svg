@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0f8ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e6f3ff;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="url(#bg-gradient)" />
+  
+  <!-- Grid pattern -->
+  <g opacity="0.1">
+    <rect x="0" y="0" width="800" height="400" fill="none" stroke="#999" stroke-width="0.5" stroke-dasharray="10,10" />
+  </g>
+  
+  <!-- Decorative lines -->
+  <g opacity="0.2">
+    <path d="M0,200 Q200,100 400,200 T800,200" fill="none" stroke="#3b82f6" stroke-width="2" />
+    <path d="M0,150 Q150,75 300,150 T600,150" fill="none" stroke="#3b82f6" stroke-width="1" />
+    <path d="M800,250 Q650,325 500,250 T200,250" fill="none" stroke="#3b82f6" stroke-width="1" />
+  </g>
+  
+  <!-- Small dots -->
+  <g fill="#93c5fd">
+    <circle cx="100" cy="100" r="2" />
+    <circle cx="150" cy="120" r="2" />
+    <circle cx="200" cy="80" r="2" />
+    <circle cx="250" cy="140" r="2" />
+    <circle cx="300" cy="100" r="2" />
+    <circle cx="350" cy="160" r="2" />
+    <circle cx="400" cy="120" r="2" />
+    <circle cx="450" cy="180" r="2" />
+    <circle cx="500" cy="140" r="2" />
+    <circle cx="550" cy="200" r="2" />
+    <circle cx="600" cy="160" r="2" />
+    <circle cx="650" cy="220" r="2" />
+    <circle cx="700" cy="180" r="2" />
+    <circle cx="750" cy="240" r="2" />
+    <circle cx="800" cy="200" r="2" />
+    
+    <circle cx="100" cy="300" r="2" />
+    <circle cx="150" cy="280" r="2" />
+    <circle cx="200" cy="320" r="2" />
+    <circle cx="250" cy="260" r="2" />
+    <circle cx="300" cy="300" r="2" />
+    <circle cx="350" cy="240" r="2" />
+    <circle cx="400" cy="280" r="2" />
+    <circle cx="450" cy="220" r="2" />
+    <circle cx="500" cy="260" r="2" />
+    <circle cx="550" cy="200" r="2" />
+    <circle cx="600" cy="240" r="2" />
+    <circle cx="650" cy="180" r="2" />
+    <circle cx="700" cy="220" r="2" />
+    <circle cx="750" cy="160" r="2" />
+    <circle cx="800" cy="200" r="2" />
+  </g>
+  
+  <!-- Dice -->
+  <g transform="translate(300,100)">
+    <!-- Dice shadow -->
+    <ellipse cx="100" cy="220" rx="60" ry="10" fill="rgba(0,0,0,0.1)" />
+    
+    <!-- Dice front face -->
+    <polygon points="100,50 150,125 100,200 50,125" fill="white" stroke="#333" stroke-width="2" />
+    
+    <!-- Dice right face -->
+    <polygon points="150,125 200,75 150,25 100,50" fill="#e5e7eb" stroke="#333" stroke-width="2" />
+    
+    <!-- Dice top face -->
+    <polygon points="100,50 150,25 50,25 50,125" fill="#f3f4f6" stroke="#333" stroke-width="2" />
+    
+    <!-- Dice dots - front face -->
+    <circle cx="100" cy="100" r="5" fill="#333" />
+    <circle cx="75" cy="75" r="5" fill="#333" />
+    <circle cx="125" cy="75" r="5" fill="#333" />
+    <circle cx="75" cy="125" r="5" fill="#333" />
+    <circle cx="125" cy="125" r="5" fill="#333" />
+    
+    <!-- Blue squares on right face -->
+    <rect x="152" y="82" width="30" height="30" fill="#3b82f6" stroke="#333" stroke-width="1" />
+    <rect x="152" y="112" width="30" height="30" fill="#2563eb" stroke="#333" stroke-width="1" />
+    <rect x="182" y="82" width="30" height="30" fill="#60a5fa" stroke="#333" stroke-width="1" />
+    <rect x="182" y="112" width="30" height="30" fill="#2563eb" stroke="#333" stroke-width="1" />
+  </g>
+</svg>
